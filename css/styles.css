@@ -1,0 +1,34 @@
+/* Bootstrap simplifies our workflow, but it's still helpful to add our own CSS */
+/* This file will include CSS to override Bootstrap defaults */
+
+/* Typography */
+body{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+/* Wordmark */
+#wordmark {
+  font-family: 'Bree Serif', serif;
+  font-size: 1.4em;
+}
+
+#wordmark span{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 1.4em;
+}
+
+#wordmark svg{
+  fill: #fff;
+}
+/* Hero */
+#hero{
+  background-image: url(../img/sabbath.jpg);
+  background-size: cover;
+  background-position: 50% 30%;
+  background-blend-mode: soft-light;
+}
+/* Dark background */
+.bg-dark {
+      background-color: #382d44!important;
+}
